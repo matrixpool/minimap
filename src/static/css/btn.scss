@@ -1,0 +1,32 @@
+Button {
+  background-color: #ffffff;
+  &::after {
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.btn-long {
+  background: linear-gradient(0deg, #ff4430, #ff9473);
+  font-size: 32px;
+  width: 690px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 80px;
+  color: #ffffff;
+}
+.btn-s {
+  background: linear-gradient(0deg, #ff4430, #ff9473);
+  font-size: 28px;
+  color: #ffffff;
+  width: 120px;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 52px;
+}
+.btn-fix {
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  z-index: 1;
+}
